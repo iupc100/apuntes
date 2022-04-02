@@ -1,1 +1,7 @@
 Mis apuntes
+
+git init (iniciar en la terminal el proyecto)
+git status (Para saber que archivos han o no han sido agregados)
+git add (agregar archivos)
+git commit -m (agregar comentario)
+git log (muestra los commits)
