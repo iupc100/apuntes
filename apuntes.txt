@@ -5,3 +5,7 @@ git status (Para saber que archivos han o no han sido agregados)
 git add (agregar archivos)
 git commit -m (agregar comentario)
 git log (muestra los commits)
+git add -A (agregar todos los archivos)
+git branch *nombre* (agregar rama)
+git checkout (cambiar de rama)
+
