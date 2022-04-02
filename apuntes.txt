@@ -8,4 +8,6 @@ git log (muestra los commits)
 git add -A (agregar todos los archivos)
 git branch *nombre* (agregar rama)
 git checkout (cambiar de rama)
-
+git tag -a *version* (agregar versión)
+git tag (visualizar versión)
+git tag -a *version* -m *comentario* (agregar versión con comentario) 
