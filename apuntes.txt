@@ -11,3 +11,21 @@ git checkout (cambiar de rama)
 git tag -a *version* (agregar versión)
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
+
+HTML
+
+<!DOCTYPE html>  <!-- html versión 5-->
+<html lang="es"> <!-- idioma -->
+<head>              <!-- cuerpo cabeza -->
+    <meta charset="UTF-8"> <!-- codificación caractéres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad navegador edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- rescabilidad? -->
+    <title>Document</title> <!-- título de la pestaña -->
+</head>
+<body>           <!-- cuerpo -->
+   <h1></h1>     <!-- tamaño de títulos -->
+   <p></p>       <!-- párrafo -->
+   <strong>...   <!-- negrita -->
+   <i>...        <!-- cursiva -->
+</body>
+</html>
