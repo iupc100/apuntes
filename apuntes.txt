@@ -11,6 +11,7 @@ git checkout (cambiar de rama)
 git tag -a *version* (agregar versión)
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
+git merge *nombre rama* (fusionar rama a master)
 
 HTML
 
