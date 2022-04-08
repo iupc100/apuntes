@@ -31,3 +31,11 @@ HTML
    <i>...        <!-- cursiva -->
 </body>
 </html>
+
+<!-- atajos de escritura
+
+
+etiqueta + > **agrega mayor y menor que a las etiquetas de inicio y fin automáticamente
+etiqueta + > + otra etiqueta ** lo mismo que lo anterior y agrega la etiqueta extra
+etiqueta + * (número de veces que se quiere repetir) ** multiplica la etique n veces
+ -->
