@@ -23,6 +23,8 @@ HTML
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad navegador edge -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- rescabilidad? -->
     <title>Document</title> <!-- título de la pestaña -->
+
+    <link rel="stylesheet" href="css/style.css"> <!-- vincular con la carpeta estilo css -->
 </head>
 <body>           <!-- cuerpo -->
    <h1></h1>     <!-- tamaño de títulos -->
@@ -50,9 +52,14 @@ style css
 
 *Para asigna el estilo, class="*nombre del estilo* dentro de la etiqueta deseada"
 
+
+
+
  Comandos linux
 
  mkdir *nombre de la carpeta*   Crear carpeta
  touch *nombre archivo*         Crear archivo
+ ls                             Mostrar archivos
+ cd ..                          Carpeta anterior
 
 

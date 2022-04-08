@@ -1,0 +1,12 @@
+h1{
+    background-color: aqua;
+}
+h2{background-color: blue;}
+
+p{background-color: blueviolet;}
+
+.parrafoNaranja{background-color: orange;}
+.verde{background-color: green;}
+p.verde{background-color: burlywood;
+color: blueviolet;
+}
