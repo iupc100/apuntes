@@ -26,11 +26,14 @@ git merge *nombre rama* (fusionar rama a master)
  
             git config --global --list                      Ver configuracions
 
+            git push origin master                          Subir todo el repositorio
+            git push origin *nombre de la rama*             Subir rama
+
             https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
                     Para generar una llave ssh
             git remote add origin git@github.com:iupc100/apuntes.git    Ejemplo para vincular la cuenta
             git remote -v                                               Mostrar si se vinculó
-            
+
 
 
 
