@@ -30,6 +30,7 @@ git merge *nombre rama* (fusionar rama a master)
                     Para generar una llave ssh
             git remote add origin git@github.com:iupc100/apuntes.git    Ejemplo para vincular la cuenta
             git remote -v                                               Mostrar si se vinculó
+            
 
 
 
