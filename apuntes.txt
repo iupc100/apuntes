@@ -8,10 +8,31 @@ git log (muestra los commits)
 git add -A (agregar todos los archivos)
 git branch *nombre* (agregar rama)
 git checkout (cambiar de rama)
-git tag -a *version* (agregar versión)
+
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
 git merge *nombre rama* (fusionar rama a master)
+
+
+        Configurar cuenta github
+
+            git config --global user.name "fulanito"        Crear nombre
+            git config --global user.name                   Mostrar nombre
+            git config --global user.name "mengano"         Modificar nombre
+
+            git config --global user.mail "mail@mail.com"   Crear correo
+            git config --global user.mail                   Mostrar correo
+            git config --global user.mail "mail@mail.com"   Modificar correo
+ 
+            git config --global --list                      Ver configuracions
+
+            https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+                    Para generar una llave ssh
+            git remote add origin git@github.com:iupc100/apuntes.git    Ejemplo para vincular la cuenta
+            git remote -v                                               Mostrar si se vinculó
+
+
+
 
 HTML
 ! <!-- signo de admiración para construir el cuerpo automáticamente -->
@@ -25,9 +46,12 @@ HTML
     <title>Document</title> <!-- título de la pestaña -->
 
     <link rel="stylesheet" href="css/style.css"> <!-- vincular con la carpeta estilo css -->
+    
 </head>
 <body>           <!-- cuerpo -->
    <h1></h1>     <!-- tamaño de títulos -->
+   <a ... *se usa también para relacionar elementos dentro de la página, se tiene que poner el signo de # antes dentro de href*></a>
+   <etiqueta id="*nombre de la relacion sin #">
    <p></p>       <!-- párrafo -->
    <strong>...   <!-- negrita -->
    <i>...        <!-- cursiva -->
@@ -61,5 +85,14 @@ style css
  touch *nombre archivo*         Crear archivo
  ls                             Mostrar archivos
  cd ..                          Carpeta anterior
+ mv *nombre del archivo original* *nombre del archivo nuevo*  Cambiar de nombre
+ rm *nombre del archivo*        Eliminar archivo
+rmdir *nombre carpeta*          Eliminar carpeta
+pwd                             Muestra la ruta
+mv *nombre archivo a mover* *ruta a mover*  Mover archivo de una carpeta a otra
 
 
+Vínculos de referencia para estudio
+
+https://codepen.io/                             Ejemplos y generador front-end
+https://codepen.io/pedromarin/pen/GdejgQ        generador código en navegador *Ejercicios class, div, p*
