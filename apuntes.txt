@@ -26,6 +26,12 @@ git merge *nombre rama* (fusionar rama a master)
  
             git config --global --list                      Ver configuracions
 
+            ssh-keygen -t rsa -b 4096 -C "email"            Generar ssh
+
+             eval `ssh-agent -s`
+             
+            pegar la clave en la página de github en la página
+
             git push origin master                          Subir todo el repositorio
             git push origin *nombre de la rama*             Subir rama
 
