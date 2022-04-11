@@ -122,9 +122,16 @@ https://foter.com/                              Banco de imágenes
 
 https://es.freelogodesign.org/                  Crear logos
 
+https://fonts.google.com/                       Fuente google
+https://www.fontbros.com/
+https://www.dafont.com/es/
+https://www.fonts.com/
+
 
 https://brandpalettes.com/                      Colores de marcas (Pantone)
 https://brandcolors.net/                        Colores de marcas (Pantone)
+
+https://www.cssdesignawards.com/                Páginas premiadas 
 
 <script src="https://kit.fontawesome.com/7046d67ff0.js" crossorigin="anonymous"></script>   script de fontawesome
 

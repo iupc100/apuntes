@@ -10,3 +10,12 @@ p{background-color: blueviolet; font-family: 'Rubik Moonrocks', cursive;}
 p.verde{background-color: burlywood;
 color: blueviolet;
 }
+
+@font-face {
+    font-family: 'GrapeNuts-Regular';
+    src: url('../tipografias/GrapeNuts-Regular.ttf');
+}
+
+h3{
+    font-family: 'GrapeNuts-Regular';
+}
