@@ -28,6 +28,7 @@ git merge *nombre rama* (fusionar rama a master)
 
             ssh-keygen -t rsa -b 4096 -C "email"            Generar ssh
 
+            ssh -T git@github.com                           Evaluar si hay conexión
              eval `ssh-agent -s`
              
             pegar la clave en la página de github en la página
@@ -106,3 +107,24 @@ Vínculos de referencia para estudio
 
 https://codepen.io/                             Ejemplos y generador front-end
 https://codepen.io/pedromarin/pen/GdejgQ        generador código en navegador *Ejercicios class, div, p*
+https://fontawesome.com/                        Íconos variados con efectos
+https://feathericons.com/                       Íconos de un solo estilo
+https://thenounproject.com/                     íconos raros
+https://www.iconfinder.com/                     Íconos mas usados, 6 millones
+https://icons8.com/icons                        íconos (se pueden editar para cambiar la apariencia)
+https://fonts.google.com/icons?selected=Material+Icons      Íconos google
+https://iconmonstr.com/page/4/                  Íconos un solo estilo
+https://flat-icons.com/                         Íconos modificables en color para distintas marcas
+https://icomoon.io/#icons                       Íconos ...
+
+https://unsplash.com/                           Banco de imágenes
+https://foter.com/                              Banco de imágenes
+
+https://es.freelogodesign.org/                  Crear logos
+
+
+https://brandpalettes.com/                      Colores de marcas (Pantone)
+https://brandcolors.net/                        Colores de marcas (Pantone)
+
+<script src="https://kit.fontawesome.com/7046d67ff0.js" crossorigin="anonymous"></script>   script de fontawesome
+
