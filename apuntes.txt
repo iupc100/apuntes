@@ -13,6 +13,9 @@ git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
 git merge *nombre rama* (fusionar rama a master)
 
+git reset --soft HEAD~1 (Borrar el último commit)            
+
+
 
         Configurar cuenta github
 
