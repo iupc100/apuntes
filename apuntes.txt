@@ -91,7 +91,10 @@ style css
 
 body{
     background-image: url('../images/*nombre imagen*');
-    background-repeat: no-repeat;                               //imagen y propiedades de la imagen
+    background-repeat: no-repeat; 
+    background-position: center bottom                              //imagen y propiedades de la imagen
+
+     background: url(../images/estrellas3.jpg) no-repeat center bottom;  //Todas las propiedades en una sola línea
 }
 
 .*nombre de la clase*{
@@ -99,6 +102,8 @@ body{
     width: 100%;                        Ancho en porcentaje
     background-color: aqua;             Fondo Colores
     opacity: 0.2;                       Opacidad de 0 a 1
+
+    background-color: rgba(108, 234, 234, 0.832);               //Color mas opacidad rgba
 }
 *Para asigna el estilo, class="*nombre del estilo* dentro de la etiqueta deseada"
 
