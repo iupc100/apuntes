@@ -7,13 +7,26 @@ git commit -m (agregar comentario)
 git log (muestra los commits)
 git add -A (agregar todos los archivos)
 git branch *nombre* (agregar rama)
+git branch *nombre de la rama* -D  (Eliminar la rama)
 git checkout (cambiar de rama)
 
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
 git merge *nombre rama* (fusionar rama a master)
 
-git reset --soft HEAD~1 (Borrar el último commit)            
+git reset --soft HEAD~1 (Borrar el último commit)   
+
+git describe --tags $(git rev-list --tags --max-count=3)  (Muestra los últimos 3 tag)
+
+git show v0.3  (Muestra lo que se hizo con el commit)
+
+git log > commits.txt  (Crear archivo de los comentarios)
+
+git help *nombre del comando"   (Muestra en la web como se usa)
+
+
+
+
 
 
 
@@ -69,6 +82,7 @@ HTML
    <p></p>       <!-- párrafo -->
    <strong>...   <!-- negrita -->
    <i>...        <!-- cursiva -->
+   <code>...     <!-- apariencia tipo código -->       
 </body>
 </html>
 
@@ -88,9 +102,13 @@ style css
 .*nombre del estilo*{*estilo*}
 *etiqueta*.*nombre del estilo*{*estilo*}
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0;             //Espacio de la caja hacia adentro, se maneja igual que las manecillas del reloj
+    margin: 0;              //Espacio de la caja hacia afuera
 }                           //Reformatear estilos del navegador
+
+{
+    margin: 10px 30px 50px 40px; //Ejemplo de margenes, manecillas de reloj (top, right, bottom, left) ó 2 valores (top, bottom y left, rigt)
+}
 
 body{
     background-image: url('../images/*nombre imagen*');

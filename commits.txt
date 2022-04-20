@@ -1,0 +1,143 @@
+commit f03a689d846b8dd58468492844a5419966400d90
+Author: upc <iupc100@gmail.com>
+Date:   Wed Apr 20 09:24:51 2022 -0500
+
+    comando para eliminar último commit en git
+
+commit 5b3aa5d008c90629b316808c82e34b493e4a2673
+Author: upc <iupc100@gmail.com>
+Date:   Wed Apr 20 09:23:16 2022 -0500
+
+    Se agregaron imÃÃagenes para hacer pruebas en background y se vieron diferentes formas para hacer lo mismo
+
+commit 6322e5d8f95583de22e584fd5da919e3d63612bf
+Author: upc <iupc100@gmail.com>
+Date:   Wed Apr 20 08:54:50 2022 -0500
+
+    Se creo carpeta de ejercicios de background con css. Se vieron estilos de background
+
+commit e3684a16dcbd01d4e4cadb4c6f6603531ab4ef96
+Author: upc <iupc100@gmail.com>
+Date:   Mon Apr 11 10:17:22 2022 -0500
+
+    se instalaron extensiones html y serve live
+
+commit 01a753ad1ff4194bf50e53b300c7eca78cf1047e
+Author: upc <iupc100@gmail.com>
+Date:   Mon Apr 11 09:34:59 2022 -0500
+
+    Se agregaron páginas de íconos, imágenes y pantones
+
+commit deba01dc3906bcbeff779d0a78756992d74de6e5
+Author: upc <iupc100@gmail.com>
+Date:   Sat Apr 9 20:36:32 2022 -0500
+
+    se arreglÃó la vinculación
+
+commit c5f27878e5f9f2ed0962a0fd71f420d117283d74
+Author: iupc <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 9 10:10:31 2022 -0500
+
+    Intento para subir fallido, seguir intentando. git push origin master
+
+commit 0878436a22431b703eaa278accff25cbd8bf65f9
+Author: iupc <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 9 09:50:06 2022 -0500
+
+    SSe guardÃaron todos los archivos
+
+commit 1f478a8ac3fcdf3d2833d72a354e0129c5975a26
+Author: iupc <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 9 09:47:24 2022 -0500
+
+    Se vinculó la cuenta para poder trabajar remotamente
+
+commit 757759aad0b19f276385db51a5f58e6784490f7f
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 9 08:48:20 2022 -0500
+
+    Se creo carpeta images, ejercicios_html. Comandos nuevos remover rm, eliminar directorios rmdir cambiar mv. Nuevos comandos para relacionar dentro de la página *id*
+
+commit 2f87800a4087fee5172a83c0dccd728281ef46e8
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Thu Apr 7 20:20:05 2022 -0500
+
+    se agregó carpeta js, archivo index.js, se vinculó estilo css al html y se agregaron comando de linux en apuntes
+
+commit 800e9614e5ab4694d107e16f335e19a449912ddc
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Thu Apr 7 19:49:09 2022 -0500
+
+    Estilos, creación de carpeta css, creación archivo, comando de linux
+
+commit d7b841ce6f00c05b6bf9fa679243e2d52b31508a
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Thu Apr 7 19:27:25 2022 -0500
+
+    Atajos de escritura de etiquetas automatizadas
+
+commit 003c216687ce5fb3a66e201ea0e07de354eb1021
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 10:05:44 2022 -0600
+
+    ! construcción el cuerpo automáticamente
+
+commit e1c2d586802f97614646271a74ba3c64e2bf1ccc
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 10:01:07 2022 -0600
+
+    fusionar merge
+
+commit 11694063b395217d6b6445f96e90c442ad34ec94
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 09:57:20 2022 -0600
+
+    se agrego en apuntes.txt cuerpo html y <h1>,<p>,<strong>,<i>
+
+commit 7055c430ef1ac08e4532324eab579f9f87e1b553
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 09:47:39 2022 -0600
+
+    etiquetas <strong> negrita y <i> cursiva
+
+commit e97fa31a1df0d8e32c89fd45f23aa028f3968a87
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 09:42:11 2022 -0600
+
+    Cuerpo html y t<h...>
+
+commit 223deb279c88e0d4c1fab12830291fb84bb865a6
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 09:24:33 2022 -0600
+
+    Se crearon etiquetas en index
+
+commit 930cdb7b27f0c035dba9583dbd29024cda8262c3
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 08:57:34 2022 -0600
+
+    Se creo el archivo index.html
+
+commit 0c683561efa3f1e8d27610e9ef013ddc591049e9
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 08:54:33 2022 -0600
+
+    git tag con sus variantes
+
+commit a98c3dfe1238df6b135c13d3612a906640af0b04
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 08:31:58 2022 -0600
+
+    git brach, checkout
+
+commit 6d4b055b6eccf34a05d2c40f097bedcca74cb697
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 08:25:00 2022 -0600
+
+    comandos git hub init, status, add, commit, log
+
+commit 934ff3787b872ef8c01bb5fcc08056d2e34c7781
+Author: iupc100 <78718577+iupc100@users.noreply.github.com>
+Date:   Sat Apr 2 08:16:23 2022 -0600
+
+    Esto es el archivo de mis apuntes
