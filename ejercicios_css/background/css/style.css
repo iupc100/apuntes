@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../images/luna.png');
+    background-repeat: no-repeat;
+}
+
+.back_1{
+
+
+}
+.back_2{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    opacity: 0.2;
+}
