@@ -29,6 +29,7 @@ p{
     padding: 20px 30px;
     margin: 50px 50px;  
 background-color: rgb(241, 229, 0) ;
+text-shadow: 5px 5px 5px 5px blue;
 
 
 }
@@ -40,4 +41,9 @@ background-color: rgb(255, 157, 0);
 .color3{
 background-color: rgb(195, 255, 0);
 margin: 30px;
+}
+
+.titulo1
+{
+    text-shadow: 5px 5px 5px 5px blue;
 }
