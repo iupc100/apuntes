@@ -3,7 +3,7 @@ Mis apuntes
 git init (iniciar en la terminal el proyecto)
 git status (Para saber que archivos han o no han sido agregados)
 git add (agregar archivos)
-git commit -m (agregar comentario)
+git commit -m " " (agregar comentario)
 git log (muestra los commits)
 git add -A (agregar todos los archivos)
 git branch *nombre* (agregar rama)
@@ -23,6 +23,8 @@ git show v0.3  (Muestra lo que se hizo con el commit)
 git log > commits.txt  (Crear archivo de los comentarios)
 
 git help *nombre del comando"   (Muestra en la web como se usa)
+
+git commit --amend -m "cambio en el commit"                 Modificar un commit
 
 
 
@@ -56,6 +58,8 @@ git help *nombre del comando"   (Muestra en la web como se usa)
                     Para generar una llave ssh
             git remote add origin git@github.com:iupc100/apuntes.git    Ejemplo para vincular la cuenta
             git remote -v                                               Mostrar si se vinculó
+          
+
 
 
 
@@ -142,6 +146,7 @@ body{
 rmdir *nombre carpeta*          Eliminar carpeta
 pwd                             Muestra la ruta
 mv *nombre archivo a mover* *ruta a mover*  Mover archivo de una carpeta a otra
+cp *nombre del archivo* *ruta del archivo*  Copiar archivo
 
 
 Vínculos de referencia para estudio
@@ -180,3 +185,12 @@ https://www.toptal.com/designers/subtlepatterns/        Texturas
 
 <script src="https://kit.fontawesome.com/7046d67ff0.js" crossorigin="anonymous"></script>   script de fontawesome
 
+
+JAVASCRIPT
+
+console.log("");                    Manipular consola desde el navegador
+var *nombre de la variable*="string"/number     
+let *nombre de la variable*="string"/number    Usar siempre let para no sobreescribir variables de JAVASCRIPT
+
+datos primitivos(NaN,Null,Undefined, string, number, null)
+datos compuestos(funciones,arrrays, objetos{}, clases)
