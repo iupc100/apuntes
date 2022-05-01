@@ -194,3 +194,8 @@ let *nombre de la variable*="string"/number    Usar siempre let para no sobreesc
 
 datos primitivos(NaN,Null,Undefined, string, number, null)
 datos compuestos(funciones,arrrays, objetos{}, clases)
+
+NaN=Not a number; Null: Objeto nulo; Undefined: Indefinido; String: Texto, number=numero;
+arrays=matrices arreglos;
+
+comando typeof              imprime tipo de dato 
