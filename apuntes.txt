@@ -53,6 +53,8 @@ git commit --amend -m "cambio en el commit"                 Modificar un commit
 
             git push origin master                          Subir todo el repositorio
             git push origin *nombre de la rama*             Subir rama
+            git push origin --tag                           Subir todos los tag
+            
 
             https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
                     Para generar una llave ssh
