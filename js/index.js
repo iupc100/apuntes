@@ -93,7 +93,8 @@ let suma1= (num1,num2) => {
 }
 console.log(suma1(10,3));
 
-let suma2= (num_1,num_2) => num_1+num_2; console.log(suma2(2,3));
+let suma2= (num_1,num_2) => num_1+num_2; 
+console.log(suma2(2,3));
 
 
 

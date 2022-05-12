@@ -123,6 +123,7 @@ style css
      border: solid 4px rgb(0, 255, 128); // borde
      border-radius: 20px; // esquinas bordeadas
      text-decoration:overline; //texto decorado
+      text-transform:capitalize;    //modifica texto
      
 }
 
