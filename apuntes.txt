@@ -12,7 +12,7 @@ git checkout (cambiar de rama)
 
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
-git merge *nombre rama* (fusionar rama a master)
+git merge *nombre rama* (fusionar rama a master-*TENGO QUE ESTAR EN LA RAMA MASTER*)
 
 git reset --soft HEAD~1 (Borrar el último commit)   
 
@@ -124,6 +124,10 @@ style css
      border-radius: 20px; // esquinas bordeadas
      text-decoration:overline; //texto decorado
       text-transform:capitalize;    //modifica texto
+      text-indent: 50px; //sangría
+            letter-spacing: 2px; // espacio entre letras
+            word-spacing: 1.6; // espacio entre palabras
+            line-height: 1.2; //espacio entre lineas
      
 }
 
