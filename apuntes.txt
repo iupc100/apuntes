@@ -79,6 +79,9 @@ HTML
     <title>Document</title> <!-- título de la pestaña -->
 
     <link rel="stylesheet" href="css/style.css"> <!-- vincular con la carpeta estilo css -->
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">  **normaliza el css para todos los navegadores**
+ 
     
 </head>
 <body>           <!-- cuerpo -->
@@ -88,7 +91,13 @@ HTML
    <p></p>       <!-- párrafo -->
    <strong>...   <!-- negrita -->
    <i>...        <!-- cursiva -->
-   <code>...     <!-- apariencia tipo código -->       
+   <code>...     <!-- apariencia tipo código -->      
+
+   <label for="">  <!--ayuda a seleccionar la casilla donde se llenará el formulario-->
+
+    ESTRUCTURA BEM - SER DESCRIPTIVO CON LAS CLASES DE CSS
+    CTRL + D atajo para seleccionar las palabras iguales y poder modificar todas a la vez
+
 </body>
 </html>
 
