@@ -147,6 +147,10 @@ body{
     background-position: center bottom                              //imagen y propiedades de la imagen
 
      background: url(../images/estrellas3.jpg) no-repeat center bottom;  //Todas las propiedades en una sola línea
+
+    
+    font-family: '*nombre de la tipografía tal cual está en el archivo de link';   //Se vincula el archivo en html de la tipografía como link y en css se activa
+
 }
 
 .*nombre de la clase*{
