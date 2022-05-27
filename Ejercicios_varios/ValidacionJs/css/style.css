@@ -88,7 +88,8 @@ main{
     background-color: red;
     padding: 0 25px;
     border-radius: 8px;
-    
+    text-align: center;
+    display: none;
     
 }
 
@@ -97,5 +98,72 @@ main{
     margin: ;
 }
 
+.formulario__grupo-btn-enviar{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
 
+.formulario__btn{
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .1s ease all;
+
+}
+
+.formulario__btn:hover{
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario__mensaje-exito{
+    font-size: 14px;
+    color: green;
+    display: none;
+}
+
+.formulario__mensaje-exito-activo{
+    display: block;
+
+}
+
+/* Estilos para la validación */
+
+.formulario__grupo-correcto .formulario__validacion-estado{
+    color: rgba(4, 202, 4, 1);
+    opacity: 1;
+
+}
+
+.formulario__grupo-incorrecto .formulario__label{
+    color: rgba(235, 20, 85, 0.678);
+     
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado{
+    color: rgba(235, 20, 85, 0.678);
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input{
+    border: 3px solid rgba(235, 20, 85, 0.678);
+}
+
+/* Media cueris*/
+
+@media screen and (max-width:800px){
+.formulario{
+    grid-template-columns: 1fr;
+}
+.formulario__btn{
+    width: 100%;
+}
+
+}
 
