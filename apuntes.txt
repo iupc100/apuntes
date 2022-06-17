@@ -6,9 +6,13 @@ git add (agregar archivos)
 git commit -m " " (agregar comentario)
 git log (muestra los commits)
 git add -A (agregar todos los archivos)
+git branch (muestra todas las ramas)
 git branch *nombre* (agregar rama)
-git branch *nombre de la rama* -D  (Eliminar la rama)
-git checkout (cambiar de rama)
+git branch *nombre de la rama* -D  (Eliminar la rama **SE BORRA A LA PRIMERA**)
+git checkout *nombre de la rama* (cambiar de rama)
+
+git pull origin *nombre de la rama, o master) (baja la rama o todas las actualizaciones)
+**si bajo una rama que no tenia no aparece a la primera, tengo que moverme a esa rama primero"
 
 git tag (visualizar versión)
 git tag -a *version* -m *comentario* (agregar versión con comentario) 
