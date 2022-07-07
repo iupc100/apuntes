@@ -167,7 +167,12 @@ body{
 }
 *Para asigna el estilo, class="*nombre del estilo* dentro de la etiqueta deseada"
 
+display
 
+etiqueta{
+    display _____;  // Acomoda según sea la opción del display, por default es block (todo)
+    display inline;   //respeta solo donde abarca el texto
+}
 
 
 
