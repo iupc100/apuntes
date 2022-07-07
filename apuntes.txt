@@ -172,6 +172,8 @@ display
 etiqueta{
     display _____;  // Acomoda según sea la opción del display, por default es block (todo)
     display inline;   //respeta solo donde abarca el texto
+    display none;   // desaparece todo lo de la etique y no respeta su espacio
+    visibility hidden;  //  desaparece todo lo de la etique pero respeta su espacio
 }
 
 
