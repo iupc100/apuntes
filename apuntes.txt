@@ -149,9 +149,8 @@ body{
     background-image: url('../images/*nombre imagen*');
     background-repeat: no-repeat; 
     background-position: center bottom                              //imagen y propiedades de la imagen
-
-     background: url(../images/estrellas3.jpg) no-repeat center bottom;  //Todas las propiedades en una sola línea
-
+    background: url(../images/estrellas3.jpg) no-repeat center bottom;  //Todas las propiedades en una sola línea
+    background-size:
     
     font-family: '*nombre de la tipografía tal cual está en el archivo de link';   //Se vincula el archivo en html de la tipografía como link y en css se activa
 

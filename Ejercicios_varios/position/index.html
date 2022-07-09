@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <title>Document</title>
     <style>
+       
         .relative{
             border: 3px solid blue;
             position: relative;
@@ -14,19 +16,120 @@
         .static{
             border: 3px solid blue;
             position: static;
+            max-width: 400px;
         }
         .fixed{
             border: 3px solid blue;
             position: fixed;
         }
+        p{
+            max-width: 500px;
+        }
+        div.relative{
+            position: relative;
+            
+            width: 400px;
+            height: 400px;
+            border: 3px solid rgb(0, 0, 0);
+        }
+        div.absolute{
+            position: absolute;
+            right: 100px;
+            width: 200px;
+            height: 100px;
+            border: 3px solid hotpink;
+        }
+        .caja
+        {
+            width: 500px;
+            height: 500px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        .caja2
+        {
+            width: 500px;
+            height: 500px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: 300px 150px;   
+        }
+
+        .caja3
+        {
+            max-width: 900px;
+            height: 500px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;   
+        }
+        .caja4{
+
+            max-width: 1000px;
+            height: 500px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: cover;   
+        }
+        
+        .caja5{
+            max-width: 1000px;
+            height: 500px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: contain;   
+            }
+        .caja6{
+            width: 1046px;
+            height: 616px;
+            border: 3px solid blue;
+            background-image: url('img/personas.webp');
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+            position: relative;
+            
+           
+        }
+        .texto{ 
+            text-align: center;  
+            color: blueviolet;
+            position: absolute;
+            top: 50%;
+            right: 25%;
+        
+        }
+        .caja7{
+            width: 900;
+            height: 600px;
+            border: 3px solid blue;
+           
+    
+            
+            
+        }
+        .caja8{
+            width: 900;
+            height: 600px;
+            background-image: url('img/imagenchica.jpg');
+            background-repeat: no-repeat ;
+            background-position: 50% 50%;
+        }
     </style>
 </head>
 <body>
+    
+    <!--
     <ul>
-        <li>static</li>             <!--Es el posicionamiento por default-->
-        <li>relative</li>           <!--Posición relativo al elemento padre-->
+        <li>static</li>             Es el posicionamiento por default
+        <li>relative</li>           Posición relativo al elemento padre
         <li>absolut</li>
-        <li>fixed</li>
+        <li>fixed</li>              se queda fijo
         <li>sticky</li>
     </ul>
 
@@ -38,32 +141,27 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
  <div class="fixed">Esto es un div con posicionamiento fixed</div>
    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
+  
+    <h2>DIFERENCIA ENTRE POSITION ABSOLUTE Y POSITION RELATIVE</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eum dolorum corrupti voluptates voluptas nam odio eius id ea laudantium consequuntur repellendus aut reprehenderit autem tempore quia, illum consequatur vel.</p>
-
+ <div class="caja"></div>
+ <div class="caja2"></div>
+ 
+    <div class="relative">
+        Este es un position relative
+        <div class="absolute">
+            Este es un position absolute
+        </div>
+    </div> -->
+    <div class="caja3"></div>
+    <div class="caja4"></div>
+ 
+    <div class="caja6">
+        <div class="texto">Lorem ipsum dolor sit amet consnim explicabo quo voluptatem.</div>
+    </div>
+    <div class="caja7">
+        <div class="caja8"></div>
+    </div>
+    
 </body>
 </html>
