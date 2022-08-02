@@ -96,6 +96,9 @@ HTML
    <strong>...   <!-- negrita -->
    <i>...        <!-- cursiva -->
    <code>...     <!-- apariencia tipo código -->      
+   <ol>
+    <li></li>
+   </ol>         <!-- Lista ordenada, *desordenada <ul> -->
 
    <label for="">  <!--ayuda a seleccionar la casilla donde se llenará el formulario-->
 
@@ -242,3 +245,32 @@ NaN=Not a number; Null: Objeto nulo; Undefined: Indefinido; String: Texto, numbe
 arrays=matrices arreglos;
 
 comando typeof              imprime tipo de dato 
+
+
+Funciones PHP
+
+
+      // != *diferente de:
+ejemplo en las funciones 
+
+$municipios=array("Orizaba","Córdoba","Huatusco","Coscomatepec","Coatepec","Xalapa");
+array_push($municipios, "Omealca");  // función para agregar dato en un array
+array_pop($municipios);        //elimina el último valor
+unset($municipios[2]);      //elimina el valor indicado
+echo $municipios;
+echo "<pre>";   // <pre></pre> ordena un array, debe ser con echo
+print_r($municipios);
+echo "</pre>";
+
+
+
+//TAREA: crear archivo  apuntes-html.html y meter los apuntes html
+                        apuntes-git.html    
+                        apunte-css.html
+                        apuntes-JAVASCRIPT.html
+                        apuntes-php.html
+                        apuntes-linux.html
+
+errores mas comunes en php
+
+https://www.php.net/manual/es/errorfunc.constants.php

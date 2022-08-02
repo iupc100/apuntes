@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación JS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">-->
+
+
+</head>
+
+<body>
+
+    <main>
+        <form class="formulario" id="formulario" action="registro.php">
+
+            <!--Grupo: Especialidad -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label class="formulario__label" for="especialidad"> Especialidad </label>
+                <div class="formulario__grupo-input">
+                    <select name="especialidad" class="input-48" class="formulario__input" required>
+                        <option  value=""></option>
+                        <option  value="Enfermería">Enfermería</option>
+                        <option  value="Puericultura">Puericultura</option>
+                        <option  value="Informática Administrativa">Informática Administrativa</option>
+                        <option  value="Comunicación">Comunicación</option>
+                        </select>
+                
+
+
+            <!--Grupo: usuario -->
+            <div class="formulario__grupo" id="grupo__usuario">
+                <label class="formulario__label" for="usuario"> Usuario </label>
+                <div class="formulario__grupo-input">
+                    <input type="text" placeholder="Nombre 123" class="formulario__input" name="usuario" id="usuario">
+                    <i class="fas fa-times-circle formulario__validacion-estado" ></i>
+                </div>
+                <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos, solo puede llevar letras y números</p>
+            </div>
+
+            <!--Grupo: nombre -->
+            <div class="formulario__grupo" id="grupo__nombre">
+                <label class="formulario__label" for="nombre"> Nombre </label>
+                <div class="formulario__grupo-input">
+                    <input type="text" placeholder="Fulanito" class="formulario__input" name="nombre" id="nombre">
+                    <i class="fas fa-times-circle formulario__validacion-estado"></i>
+                </div>
+                <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede llevar letras</p>
+            </div>
+
+            <!--Grupo: contraseña 1 -->
+            <div class="formulario__grupo" id="grupo__password">
+                <label class="formulario__label" for="password"> Password </label>
+                <div class="formulario__grupo-input">
+                    <input type="password" placeholder="Contraseña" class="formulario__input" name="password" id="password">
+                    <i class="fas fa-times-circle formulario__validacion-estado"></i>
+                </div>
+                <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos</p>
+            </div>
+
+            <!--Grupo: contraseña 2 -->
+            <div class="formulario__grupo" id="grupo__password2">
+                <label class="formulario__label" for="password2"> Repetir password </label>
+                <div class="formulario__grupo-input">
+                    <input type="password" placeholder="Contraseña" class="formulario__input" name="password2" id="password2">
+                    <i class="fas fa-times-circle formulario__validacion-estado"></i>
+                </div>
+                <p class="formulario__input-error">Ambas contraseñas deben ser iguales</p>
+            </div>
+
+            <!--Grupo: correo -->
+            <div class="formulario__grupo" id="grupo__correo">
+                <label class="formulario__label" for="correo"> Correo </label>
+                <div class="formulario__grupo-input">
+                    <input type="email" placeholder="fulanito@correo.com" class="formulario__input" name="correo" id="correo">
+                    <i class="fas fa-times-circle formulario__validacion-estado"></i>
+                </div>
+                <p class="formulario__input-error">El correo solo puede contener letras números, puntos, guiones, arroba y guión bajo</p>
+            </div>
+
+            <!--Grupo: teléfono -->
+            <div class="formulario__grupo" id="grupo__telefono">
+                <label class="formulario__label" for="telefono"> telefono </label>
+                <div class="formulario__grupo-input">
+                    <input type="text" placeholder="2721234567" class="formulario__input" name="telefono" id="telefono">
+                    <i class="fas fa-times-circle formulario__validacion-estado"></i>
+                </div>
+                <p class="formulario__input-error">El teléfono debe contener solo 10 números </p>
+            </div>
+
+            <!--Aviso de privacidad, términos y condiciones-->
+            <div class="formulario__grupo" id="grupo__terminos">
+                <label for="" class="formulario__label">
+                    <input type="checkbox" name="terminos" id="terminos" class="formulario__checkbox">Acepto los términos y condiciones
+                </label>
+            </div>
+            
+            <div class="formulario__mensaje" id="formulario__mensaje" >
+                <p><i class="fas fa-exclamation-triangle"></i>
+                    <b>Error:</b> por favor rellenar el formulario correctamente</p> 
+            </div>
+
+            <!--Botón de enviar-->
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <button type="submit" class="formulario__btn">Enviar</button>
+                <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario llenado exitosamente</p>
+            </div>
+        </form>
+    
+
+
+    </main>
+    
+    
+</body>
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>

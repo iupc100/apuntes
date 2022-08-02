@@ -1,0 +1,55 @@
+
+Usuario Administrador
+gdmyg
+
+Contraseña Administrador
+$%4#X2Qy9q
+Fuerte (65/100) Esconder
+Email Administrador
+admin@pruebawordpress.isecf.site
+
+WordPress 5.9 ha sido correctamente instalado en :
+https://pruebawordpress.isecf.site
+Admin URL : https://pruebawordpress.isecf.site/wp-admin/
+
+---------------------------------------------------------
+PRUEBA 2
+
+
+Usuario Administrador
+bqwpd
+
+Contraseña Administrador
+$3@XkpuQj$
+Fuerte (65/100) Esconder
+Email Administrador
+admin@prueba2.isecf.site
+
+WordPress ha sido correctamente instalado en :
+https://prueba2.isecf.site
+Admin URL : https://prueba2.isecf.site/wp-admin/
+
+------------------------------------------------------
+
+LOCALHOST
+
+A continuación tendrás que introducir los detalles de tu conexión con la base de datos. Si no estás seguro de ellos, contacta con tu proveedor de alojamiento.
+
+Nombre de la base de datos	
+bd_wordpress
+El nombre de la base de datos que quieres usar con WordPress.
+Nombre de usuario	
+root
+El nombre de usuario de tu base de datos.
+Contraseña	
+*sincontraseña
+La contraseña de tu base de datos.
+Servidor de la base de datos	
+localhost
+Si localhost no funciona, deberías poder obtener esta información de tu proveedor de alojamiento web.
+Prefijo de tabla	
+wp_
+Si quieres ejecutar varias instalaciones de WordPress en una sola base de datos cambia esto.
+
+usuario: admin
+qwertyuiop
