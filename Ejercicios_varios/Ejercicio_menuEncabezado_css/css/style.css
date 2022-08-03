@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+   
+}
+
+header{
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+li{
+    
+    
+    background-color: rgb(228, 202, 251);
+    color: rgb(255, 0, 247);
+}
+
+a{
+    color: rgb(234, 0, 255);
+    font-size: 20px;
+    list-style: none;
+}
