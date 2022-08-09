@@ -15,7 +15,7 @@ ul{
 }
 
 li{
-    
+     
     margin:0px 60px 0px 60px;
     background-color: rgb(228, 202, 251);
     color: rgb(255, 0, 247);
@@ -26,3 +26,15 @@ a{
     font-size: 20px;
     list-style: none;
 } 
+
+.izq{
+   display: flex;
+    
+    
+}
+
+.der{
+    display: flex;
+    flex-direction: row-reverse; 
+}
+

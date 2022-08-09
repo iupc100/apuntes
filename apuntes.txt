@@ -178,8 +178,12 @@ etiqueta{
     visibility hidden;  //  desaparece todo lo de la etique pero respeta su espacio
 }
 
-
-
+.class{
+    display: grid;                              //crea divisiones dentro de un div
+    grid-template-columns: 1fr 1fr 1fr;         // crea columnas, el número de medidas va a ser el número de columnas
+    grid-template-rows: 1fr;                    // crea filas, fr lo toma como fracción
+    grid-gap: 5px;                              // crea un espacio entre las filas y columnas, una especie de borde
+}
 
  Comandos linux
 
