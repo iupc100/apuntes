@@ -184,6 +184,13 @@ etiqueta{
     grid-template-rows: 1fr;                    // crea filas, fr lo toma como fracción
     grid-gap: 5px;                              // crea un espacio entre las filas y columnas, una especie de borde
 }
+    grid-template-columns: minmax(100px, 200px) 200px ;     //funcion min max 
+    grid-template-rows: minmax(100px, 200px) 200px    ;
+
+    grid-template-columns: minmax(100px, auto) 200px;       // con auto se adapta al texto
+
+
+//en consola se puede revisar las propiedades del grid entre otras. Seccion layout, extend grid lines, y después seleccionar el div donde están el grid
 
  Comandos linux
 
