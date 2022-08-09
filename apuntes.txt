@@ -189,6 +189,15 @@ etiqueta{
 
     grid-template-columns: minmax(100px, auto) 200px;       // con auto se adapta al texto
 
+    grid-template-columns: repeat(4, 200px);                // repite 4 columnas con la medida indicada
+
+
+    .contenedor .item{
+    grid-column-start: 1;                       // grid column star se debe empezar en la clase a modificar, 
+    grid-column-end: 5;                         // end indica hasta donde va a terminar la celda
+    background-color: orange;
+}
+
 
 //en consola se puede revisar las propiedades del grid entre otras. Seccion layout, extend grid lines, y después seleccionar el div donde están el grid
 
