@@ -191,11 +191,18 @@ etiqueta{
 
     grid-template-columns: repeat(4, 200px);                // repite 4 columnas con la medida indicada
 
+ 
+
 
     .contenedor .item{
     grid-column-start: 1;                       // grid column star se debe empezar en la clase a modificar, 
     grid-column-end: 5;                         // end indica hasta donde va a terminar la celda
     background-color: orange;
+
+    grid-column-start: 3;           // ejemplo de donde colocar la celda como en una matriz
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
 }
 
 

@@ -9,7 +9,7 @@ html,body{
 .contenedor{
     display: block;
     justify-content: center;
-    height:100vh;
+    
     width: 70%;
     padding: 50px;
     margin: auto;
