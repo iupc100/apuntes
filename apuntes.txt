@@ -209,6 +209,15 @@ etiqueta{
 
     grid-area: 2/2/4/4;         /*  empieza en la fila/empieza en la columna/termina en la fila/ termina en la columna */
 
+    *span*
+    grid 1/span 3;              /* span indica el numero de espacios que quiero que tome de la grilla a partir del primer número que se coloca */        
+
+    z-index: *posicion, mueve las cosas en el eje z (por default es 0)*;
+
+    justify-items: start/center/end/stretch;   /* justifica solo lo que se ocupa con start, center y end, con stretch lo estira todo a la medida de la grilla */
+                                              /*alinea horizontalmente*/
+    align-item: start/center/end/stretch;        /* hace lo mismo que justify pero en vertical*/
+    
 }
 
 

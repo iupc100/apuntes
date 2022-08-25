@@ -12,10 +12,13 @@
     grid-row-start: 1;
     grid-row-end: 5; 
 
-    grid-column: 3/5;
-    grid-row: 2/4;      */
+    grid-column: 3/span 5;
+    grid-row: 2/span 4;     */ 
 
-    grid-area: 2/2/4/4;         /*  empieza en la fila/empieza en la columna/termina en la fila/ termina en la columna */
+    /*grid-area: 2/2/4/4; */        /*  empieza en la fila/empieza en la columna/termina en la fila/ termina en la columna */
 
+    grid-column: 1/span 3;
+    grid-row: 1/span 3;
+    
     background-color: orange;
 }

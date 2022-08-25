@@ -1,0 +1,9 @@
+.contenedor{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,150px);
+    justify-items: stretch;             /*alinea horizontalmente*/
+    align-items: end;                   /*alinea verticalmente*/
+    
+}
