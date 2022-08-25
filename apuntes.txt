@@ -203,6 +203,12 @@ etiqueta{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 5;
+
+    grid-column: 3/5;               // code simplificado, mismos resultado al de arriba
+    grid-row: 2/4;
+
+    grid-area: 2/2/4/4;         /*  empieza en la fila/empieza en la columna/termina en la fila/ termina en la columna */
+
 }
 
 

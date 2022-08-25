@@ -22,3 +22,7 @@ html,body{
 .titulo{
     text-align: center;
 }
+
+.margen_1{
+margin-left: 100px;
+}

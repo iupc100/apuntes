@@ -7,9 +7,15 @@
 }
 
 .contenedor .item{
-    grid-column-start: 3;
-    
+    /* grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 5; 
+
+    grid-column: 3/5;
+    grid-row: 2/4;      */
+
+    grid-area: 2/2/4/4;         /*  empieza en la fila/empieza en la columna/termina en la fila/ termina en la columna */
+
     background-color: orange;
 }
