@@ -99,7 +99,7 @@ HTML
    <ol>
     <li></li>
    </ol>         <!-- Lista ordenada, *desordenada <ul> -->
-
+    <img width: __% height: __%>
    <label for="">  <!--ayuda a seleccionar la casilla donde se llenará el formulario-->
     <hr> <! linea para separar !>
     ESTRUCTURA BEM - SER DESCRIPTIVO CON LAS CLASES DE CSS
