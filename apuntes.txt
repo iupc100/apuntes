@@ -214,6 +214,8 @@ etiqueta{
 
     z-index: *posicion, mueve las cosas en el eje z (por default es 0)*;
 
+    grid-alineación de elementos
+    
     justify-items: start/center/end/stretch;   /* justifica solo lo que se ocupa con start, center y end, con stretch lo estira todo a la medida de la grilla */
                                               /*alinea horizontalmente*/
     align-item: start/center/end/stretch;        /* hace lo mismo que justify pero en vertical*/
