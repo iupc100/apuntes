@@ -1,0 +1,11 @@
+Descargar WP desde wordpress.org
+Descomprimir en localhost (htdocs si es xamp) o en el servidor
+Ir a la ruta de la nueva carpeta creada
+Seguir los pasos
+Crear una base de datos en phpmyadmin 
+    (En este caso el usuario es root y sin contraseña)
+Seguir los pasos
+    (titulo: AprendiendoWP; usuario y contraseña: admin)
+
+
+
